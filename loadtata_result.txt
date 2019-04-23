@@ -1,0 +1,4 @@
+load data local infile "/root/Desktop/wutuopai/second_handle/step3__handle_no_address/kw2_no_address.txt" into table kw2_no_address_handle fields terminated by ',';
+
+
+ALTER TABLE kw2 ADD id INT NOT NULL PRIMARY KEY AUTO_INCREMENT FIRST
